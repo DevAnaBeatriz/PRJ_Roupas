@@ -1,0 +1,136 @@
+body {
+  background: #ffe6f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff0f5;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+  text-align: center;
+}
+
+h1, h2 {
+  color: #ff69b4;
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  margin: 5px;
+  width: 80%;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.lista-container, .numeros-container {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  color: #ff1493;
+  border-bottom: 1px dashed #ffc0cb;
+}
+
+.mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  min-height: 24px;
+  color: #d6336c;
+}
+
+.resultado {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #6c00a0;
+}
+
+
+li .num {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #d6336c;
+}
+
+.edit-btn, .delete-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ff69b4;
+  transition: transform 0.2s;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  transform: scale(1.2);
+  background-color: transparent !important;
+}
+
+.item-text {
+  margin-left: 5px;
+}
+
+.edit-btn, .delete-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.edit-btn:hover svg,
+.delete-btn:hover svg {
+  transform: scale(1.2);
+  background-color: transparent !important;
+}
+
+.alert-text {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #ff1493;
+  background-color: #fff0f5;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

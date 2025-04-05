@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" type="image/png" href="assets/dress.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Roupas</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>
+      Cadastro de Roupas e Cores
+    </h1>
+
+    <div class="form">
+      <input type="text" id="roupa" placeholder="Nome da roupa" />
+      <input type="text" id="cor" placeholder="Cor da roupa" />
+      <button onclick="adicionarRoupa()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+          <path d="M8 1a.5.5 0 01.5.5v6.5H15a.5.5 0 010 1H8.5V15a.5.5 0 01-1 0V9.5H1a.5.5 0 010-1h6.5V1.5A.5.5 0 018 1z"/>
+        </svg> Adicionar
+      </button>
+      <div id="mensagem" class="mensagem"></div>
+    </div>
+
+    <div class="lista-container">
+      <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ff69b4" viewBox="0 0 16 16">
+          <path d="M2 2v12h12V2H2zm1 1h10v10H3V3zm1 2h8v1H4V5zm0 2h8v1H4V7zm0 2h5v1H4V9z"/>
+        </svg>
+        Lista sem repetições
+      </h2>
+      <ul id="listaOrdenada"></ul>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
