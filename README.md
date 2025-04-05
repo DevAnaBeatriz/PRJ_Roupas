@@ -14,7 +14,13 @@ Este é um projeto simples feito com **HTML**, **CSS** e **JavaScript** puro.
 
 ## Estrutura do Projeto
 
-PRJ_Roupas/ │ ├── index.html ├── css/ │ └── style.css ├── js/ │ └── script.js └── assets/ └── dress.png (favicon da página)
+PRJ_Roupas/ │ ├── index.html 
+              ├── css/ │
+                  └── style.css 
+              ├── js/ │ 
+                  └── script.js 
+              └── assets/ 
+                  └── dress.png (favicon da página)
 
 
 ## Como rodar
