@@ -1,4 +1,4 @@
-"""# Projeto: Cadastro de Roupas e Cores
+# Projeto: Cadastro de Roupas e Cores
 
 Este é um projeto simples feito com **HTML**, **CSS** e **JavaScript** puro.
 
